@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileActivity">
+    <EditText
+            android:id="@+id/welcomeMessageTextView"
+            android:layout_width="288dp"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Welcome to xxx Note App" />
+
+    <ListView
+        android:id="@+id/notesListView"
+        android:layout_width="355dp"
+        android:layout_height="501dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"/>
+
+</RelativeLayout>
